@@ -1,5 +1,5 @@
 console.log('Carb Counter is Working!');
-let riceCarbPerCup = 45;
-let cupEaten = 1.5;
-let totalCarbs = riceCarbPerCup * cupEaten;
-console.log('TotalCarbs:', totalCarbs);
+const riceCarbsPerCup = 45;
+let cupsEaten = 1.5;
+let totalCarbs = riceCarbsPerCup * cupsEaten;
+console.log(`Total Carbs: ${totalCarbs}g`);
