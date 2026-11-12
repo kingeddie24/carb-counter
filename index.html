@@ -9,9 +9,17 @@
 <body>
     <main>
         <h1>Carb Counter</h1>
-        <label for="cups">Cup of Cooked Rice:</label>
-        <input id="cups" type="number" min="0" step="0.5">
-        <button id="calculate" >Calculate</button>
+        <label for="food">Food:</label>
+        <select id="food">
+            <option value="rice">Cooked jollof rice</option>
+            <option value="yam">Pounded yam</option>
+            <option value="garri">Garri (Eba)</option>
+            <option value="beans">Cooked brown beans</option>
+            <option value="plantain">Fried plantain</option>
+        </select>
+        <label for="portions">Number of Portions:</label>
+        <input id="portions" type="number" min="0" step="0.5">
+        <button id="calculate">Calculate</button>
 
         <p id="result"></p>
 
